@@ -51,14 +51,14 @@ function App() {
         >
           Job Match Checker
         </li>
-        <li
+        {/* <li
           className={`p-2 rounded-lg cursor-pointer transition-all ${
             showcaseTool === 'jobFinder' ? 'bg-blue-100 font-semibold' : 'bg-gray-50'
           }`}
           onClick={() => setShowcaseTool("jobFinder")}
         >
           Best-Fit Jobs Finder
-        </li>
+        </li> */}
       </ul>
     </div>
 
