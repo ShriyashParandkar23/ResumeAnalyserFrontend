@@ -38,7 +38,7 @@ const PDFDropzone = () => {
   });
 
   return (
-    <div className="min-h-screen bg-white p-6 rounded-2xl">
+    <div className="min-h-screen bg-white p-1 rounded-2xl">
       <h1 className="text-3xl font-bold text-center mb-6">
         📄 Resume Analyzer
       </h1>

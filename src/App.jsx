@@ -29,7 +29,7 @@ function App() {
   </div>
 
   {/* Main Grid Layout */}
-  <div className="main grid grid-cols-1 md:grid-cols-12 min-h-screen bg-gray-100 px-6 pb-6 gap-4">
+  <div className="main grid grid-cols-1 md:grid-cols-12 min-h-screen bg-gray-100 md:px-6 pb-2 md:pb-6 gap-4">
     
     {/* Sidebar Tools - visible only on md+ screens */}
     <div className="tools hidden md:block col-span-3 bg-white rounded-2xl shadow-md p-4">
@@ -63,18 +63,11 @@ function App() {
     </div>
 
     {/* Main Showcase */}
-    <div className="showcaseTool col-span-12 md:col-span-9 p-6 bg-white rounded-2xl shadow-lg">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4">
-        {showcaseTool === "resumeAnalyser" && "Resume Analyzer"}
-        {showcaseTool === "jobMatchChecker" && "Job Match Checker"}
-        {showcaseTool === "jobFinder" && "Resume Best-Fit Jobs Finder"}
-      </h2>
-      <div className="border border-gray-200 rounded-xl p-4 bg-gray-50">
+    <div className="border border-gray-200 col-span-9 rounded-xl p-4 bg-gray-50">
         {showcaseTool === "resumeAnalyser" && <PDFDropzone />}
         {showcaseTool === "jobMatchChecker" && <JobMatchChecker />}
         {showcaseTool === "jobFinder" && "Resume Best-Fit Jobs Finder"}
       </div>
-    </div>
   </div>
 </>
 
