@@ -66,7 +66,7 @@ function App() {
     <div className="border border-gray-200 col-span-9 rounded-xl p-4 bg-gray-50">
         {showcaseTool === "resumeAnalyser" && <PDFDropzone />}
         {showcaseTool === "jobMatchChecker" && <JobMatchChecker />}
-        {showcaseTool === "jobFinder" && "Resume Best-Fit Jobs Finder"}
+        {/* {showcaseTool === "jobFinder" && "Resume Best-Fit Jobs Finder"} */}
       </div>
   </div>
 </>
